@@ -101,7 +101,6 @@ if (document.readyState == 'loading') {
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    localStorage.Point =  localStorage.Point - total
     document.getElementsByClassName('cart-total-price')[0].innerText = total + " Points"
    
   }
