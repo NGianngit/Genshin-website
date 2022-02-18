@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans:wght@300&family=Oswald&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href= "theme_1644407376891.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  
+  <body>
+    <div class="loader hidden">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_Z4BhGL.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    </div>
+    <div class="area" >
+      <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
+      </div >
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Quizshin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="game.html">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exchange.html">Exchange</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quiz.html">Quizs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"><img id ="avatar" src ="IMGS/defult.png" alt ='defult avatar' width ="28px" height="28px"></a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="quiz_container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Progress Bar
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Points Earned
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="question">What is the answer to this question</h1>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="iquiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
