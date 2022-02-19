@@ -1,4 +1,4 @@
-QUIZSHIN (https://ryantjk.github.io/big-prj/)
+QUIZSHIN (https://ngianngit.github.io/Integrated-Project/)
 
 
 This Is Quizshin. The aim of this app is to allow both Genshin Impact players and people who 
