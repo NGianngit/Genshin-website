@@ -30,11 +30,9 @@ function clickCounter() {
     localStorage.setItem("Point",100);
     localStorage.setItem("Point", Math.floor(Math.random(100) * 20000) + 1);
     localStorage.Point = localStorage.getItem("Point")
-    document.querySelector("#avatar").addEventListener("change",function (){
-      console.log(this.files);
-    });
   } else {
-    localStorage.setItem("Point",100);
+    localStorage.setItem("Point", Math.floor(Math.random(100) * 20000) + 1);
+    localStorage.Point = localStorage.getItem("Point")
   }
 
   document.getElementById("demo").innerHTML = localStorage.Point;
