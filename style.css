@@ -654,12 +654,12 @@ body {
 }
 @media screen and (max-width: 768px) {
     .quiz_container{
-        height: 1500px;
-        padding: 10%;
+        height: 1500px !important;
+        padding: 10% !important;
         
     }
     .choice-container {
-       min-width: 10%;
+       min-width: 10% !important;
     }
 
 }
@@ -668,7 +668,7 @@ body {
 @media screen and (min-width: 768px){
 
     .choice-container {
-        min-width: 30rem;
+        min-width: 30rem !important;
     }
 }
 
