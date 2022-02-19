@@ -445,7 +445,7 @@ body {
 .arrow{
 	position: absolute;
     z-index:10;
-	top:72%;
+	top:65%;
 	left:50%;
 	transform: translateX(-50%);
 	color:#000000a2;
@@ -458,7 +458,7 @@ body {
 
 #spin{
 	position: absolute;
-	top:915px;
+	top:1300px;
 	left:50%;
 	transform:translate(-50%,-50%);
 	z-index:10;
