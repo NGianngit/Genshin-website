@@ -652,12 +652,26 @@ body {
     background: rgb(11,223,36);
     width: 0%;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
+    .quiz_container{
+        height: 1500px;
+        padding: 10%;
+        
+    }
+    .choice-container {
+       min-width: 10%;
+    }
 
 }
-.choice-container {
-    min-width: 30rem;
+
+    
+@media screen and (min-width: 768px){
+
+    .choice-container {
+        min-width: 30rem;
+    }
 }
+
 
 
 /* _____________________________________________*/
