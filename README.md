@@ -59,7 +59,7 @@ machine for a certain amount of points
 3.Gacha system - allows users to get random prizes from the exchange store for a certain 
 amount of points
 
-
+4.Create a unique banner for players to show off in-game
 
 TECHNOLOGY USED_____________________________________________________________________________
 
