@@ -241,5 +241,3 @@ incrementScore = num => {
 }
 
 startGame()
-
-window.location.href = 'end.html'
